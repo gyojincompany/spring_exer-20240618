@@ -4,13 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>게시글 보기</title>
+<title>keywordGood</title>
 </head>
 <body>
-	<h2>게시글</h2>
-	<hr>
-	글쓴이 : ${bdto.userName }<br><br>
-	글제목 : ${bdto.title }<br><br>
-	글내용 : ${bdto.content }
+	<h1>keywordGood!!!</h1>
 </body>
 </html>

@@ -4,13 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>게시글 보기</title>
+<title>키워드 찾기</title>
 </head>
 <body>
-	<h2>게시글</h2>
+	<h2>키워드 찾기</h2>
 	<hr>
-	글쓴이 : ${bdto.userName }<br><br>
-	글제목 : ${bdto.title }<br><br>
-	글내용 : ${bdto.content }
+	<form action="keywordOk">
+		<input type="text" name="keyword">
+		<input type="submit" value="제출">
+	</form>
 </body>
 </html>
